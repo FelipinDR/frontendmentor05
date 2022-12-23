@@ -50,14 +50,36 @@
   #root, #__next {
     isolation: isolate;
   }
+/*My Variables*/
+:root{
+    --bg-color:hsl(233, 47%, 7%);
+    --bg-card:hsl(244, 38%, 16%);
+    --violet:hsl(277, 64%, 61%);
+    --white:hsl(0, 0%, 100%);
+    --white-p:hsla(0, 0%, 100%, 0.75);
+    --white-h:hsla(0, 0%, 100%, 0.6)
+}
   /*My CSS*/ 
+body{
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+}
 main{
     display: grid;
     place-items: center;
     min-height: 100vh;
 }
 .container{
+    background-color: var(--bg-card);
     display: grid;
     place-items: center;
-    border:2px solid red;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin: 1rem;   
+}
+.title{
+    color: var(--white);
+    text-align: center;
+    font-size: 34px;
+    margin-top: 2rem;
 }
