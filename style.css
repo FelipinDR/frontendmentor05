@@ -71,6 +71,7 @@ main{
     margin: 1rem;
     border-radius: 1rem;
     background-color: var(--card-background);
+    font-family: var(--font-family-1);
 }
 .title{
     color:var(--white);
@@ -90,4 +91,9 @@ span{
 }
 p{
     font-size: 15px;
+}
+.information{
+    text-align: center;
+    color:var(--white-p);
+    margin-bottom:2rem;
 }
