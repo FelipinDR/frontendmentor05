@@ -63,15 +63,18 @@
   }
 body{
     background-color: var(--main-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 1rem;
     border-radius: 0.75rem;
     background-color: var(--card-background);
     font-family: var(--font-family-1);
+    max-width: 20rem;
+    margin-top: 20rem;
 }
 .title{
     color:var(--white);
@@ -89,7 +92,6 @@ span{
 .main-container{
     display:grid;
     place-items: center;
-    min-height: 100vh;
 }
 p{
     font-size: 15px;
