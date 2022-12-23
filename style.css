@@ -69,7 +69,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     background-color: var(--card-background);
     font-family: var(--font-family-1);
 }
@@ -80,6 +80,9 @@ main{
     font-size: 30px;
     text-align: center;
 }
+img{
+    border-radius: 0.75rem 0.75rem 0 0 ;
+}
 span{
     color:var(--violet);
 }
@@ -87,13 +90,27 @@ span{
     display:grid;
     place-items: center;
     min-height: 100vh;
-    padding: 1rem;
 }
 p{
     font-size: 15px;
+    color:var(--white-p)
 }
 .information{
     text-align: center;
-    color:var(--white-p);
     margin-bottom:2rem;
+    margin: 1rem;
+}
+.companies-number,.templates-number,.queries-number{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.queries-number{
+    text-transform: uppercase;
+}
+.companies,.templates,.queries{
+    text-transform: uppercase;
+    font-family: var(--font-family-1);
+    font-size: 400;
+    margin-bottom: 1.5rem;
 }
