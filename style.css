@@ -83,3 +83,61 @@ main{
     font-size: 34px;
     margin-top: 2rem;
 }
+.title span{
+    color:var(--violet);
+}
+.information{
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+p{
+    font-size: 15px;
+    color:var(--white-p)
+}
+.centered-info{
+    text-align: center;
+}
+.number{
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 700;
+}
+.info{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.pic{
+    position: relative;
+}
+.pic::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsla(277, 64%, 61%, 0.6);
+}
+@media (min-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        width: ;
+    }
+    .pic{
+        position: relative;
+        height:100%;
+        
+    }
+    picture,img{
+        height:100% ;
+    }
+    .info{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        display: column;
+    }
+}
