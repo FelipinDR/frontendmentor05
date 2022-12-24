@@ -124,7 +124,6 @@ p{
     .container{
         display: flex;
         flex-direction: row-reverse;
-        width: ;
     }
     .pic{
         position: relative;
